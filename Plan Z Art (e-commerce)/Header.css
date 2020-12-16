@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  padding-right: 0;
+  box-sizing: border-box;
+  background-color: #f6f4f4;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.header h1 span {
+  color: rgb(255, 102, 0);
+}
+.header__nav {
+  display: flex;
+  max-width: 400px;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+.header__nav a:hover {
+  color: rgb(255, 102, 0);
+}
+
+.header__basket span:nth-child(1) {
+  color: black;
+}
+.header__basketItems {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin-top: -13px;
+  color: white;
+  line-height: 23px;
+  background-color: orange;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid;
+}

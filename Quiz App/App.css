@@ -1,0 +1,25 @@
+.app {
+  background: linear-gradient(270deg, cyan, darkcyan);
+  width: 100%;
+  min-height: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.app button {
+  text-transform: capitalize !important;
+  font-size: 30px;
+  padding: 0px 30px;
+  margin-top: 20px;
+}
+.app__hidden {
+  visibility: hidden !important;
+}
