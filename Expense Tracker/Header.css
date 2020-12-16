@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500&display=swap");
+.header {
+  /* text-align: center; */
+  font-family: "Poppins", sans-serif;
+}
+.header > h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #efefef;
+  display: inline-block;
+}
+.header > h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: gray;
+}
+.header h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.header__current {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-align: center;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+.header__current:hover {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.header__current > span {
+  display: block;
+  height: 80px;
+  width: 2px;
+  background-color: lightgray;
+}
+.header__currentIncome h3 {
+  font-size: 22px;
+  border-bottom: 2px solid lightgray;
+}
+.header__currentExpense h3 {
+  font-size: 22px;
+  border-bottom: 2px solid lightgray;
+}
+.header__currentIncome p {
+  color: lime;
+  font-size: 20px;
+}
+.header__currentExpense p {
+  color: red;
+  font-size: 20px;
+}

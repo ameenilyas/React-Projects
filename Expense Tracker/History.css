@@ -1,0 +1,41 @@
+.history {
+  margin-bottom: 20px;
+}
+.history__info,
+.history__infos {
+  position: relative;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.3);
+  font-size: larger;
+  font-weight: 500;
+  border-bottom: 5px solid rgba(0, 255, 0, 1);
+}
+.history__infos {
+  border-bottom: 5px solid rgba(255, 0, 0, 1);
+}
+.remove {
+  position: absolute;
+  right: -25px;
+  top: -10px;
+  font-size: 12px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 22px;
+}
+.history__info:hover .remove,
+.history__infos:hover .remove {
+  opacity: 1;
+}

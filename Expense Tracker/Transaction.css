@@ -1,0 +1,35 @@
+.transaction h2 {
+  display: inline-block;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.transaction__form p {
+  font-size: larger;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+.transaction__form input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: larger;
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.transaction__form button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  margin: 20px 0;
+  margin-bottom: 40px;
+  cursor: pointer;
+}

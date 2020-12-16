@@ -1,0 +1,23 @@
+.app {
+  padding: 20px;
+  padding-top: 50px;
+  max-width: 450px;
+  min-width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  height: fit-content;
+  background-color: #f9f9f9;
+}
+.app__history {
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 2px solid lightgray;
+  margin-top: 20px;
+}
+.app__historyInfo {
+  margin: 10px 0;
+  color: gray;
+  font-weight: 500;
+}
